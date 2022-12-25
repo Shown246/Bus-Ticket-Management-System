@@ -7,14 +7,13 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.application.LoginPage">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.application.CreateAccountPage">
    <children>
-      <Button layoutX="290.0" layoutY="239.0" mnemonicParsing="false" onAction="#getLogin" prefHeight="44.0" prefWidth="97.0" text="log in">
+      <Button layoutX="223.0" layoutY="236.0" mnemonicParsing="false" onAction="#getAccount" prefHeight="44.0" prefWidth="186.0" text="Create Account">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button layoutX="273.0" layoutY="337.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="131.0" text="Forgot Password ?" />
       <Label layoutX="53.0" layoutY="152.0" prefHeight="25.0" prefWidth="97.0" text="Password">
          <font>
             <Font size="22.0" />

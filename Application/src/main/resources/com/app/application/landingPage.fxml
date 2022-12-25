@@ -5,8 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.application.LandingPageController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.application.LandingPage">
    <children>
       <Label layoutX="60.0" layoutY="162.0" prefHeight="38.0" prefWidth="188.0" text="First time here ?">
          <font>
@@ -18,12 +17,12 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Button layoutX="300.0" layoutY="158.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="237.0" text="Create a new account">
+      <Button layoutX="300.0" layoutY="158.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="46.0" prefWidth="237.0" text="Create a new account">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button fx:id="login" layoutX="300.0" layoutY="237.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="161.0" text="Log in">
+      <Button layoutX="300.0" layoutY="237.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="161.0" text="Log in">
          <font>
             <Font size="20.0" />
          </font>
